@@ -1,0 +1,84 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* The CSS box-sizing property allows us to include the
+padding and border in an element's total width and height. */
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(59, 86, 117);
+}
+
+.wrapper {
+    text-align: center;
+}
+
+#mygov {
+    display: inline-block;
+    padding: 3em;
+    background-color: rgba(102, 208, 226, 0.925);
+    border-radius: 30px;
+    margin-top: 2em;
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px black;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+img:hover{
+    
+    box-shadow: 0px 0px 100px rgba(226, 223, 44, 0.884);
+}
+
+.mygov__name {
+    text-transform: uppercase;
+    font-size: 2em;
+    /* margin-top: 1em; */
+    font-family: oswald,  sans-serif
+}
+
+.mygov__committee {
+    font-weight: bold;
+    padding-bottom: .5em;
+}
+.mygov__district {
+    margin-top: 1.5em;
+}
+
+.mygov__button {
+    
+    background-color: rgb(59, 86, 117);
+    margin-top: .5em;
+    
+    border-radius: 7px;
+    padding: .3em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: hotpink;
+}
+ol, ul {
+    padding-left: 0px;
+}
+
+.section {
+    text-align: center;
+}
+
+.mygov__button:hover {
+
+    box-shadow: 0px 0px 10px rgba(255, 105, 180, 0.555);
+}
+
+
