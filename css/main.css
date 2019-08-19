@@ -21,6 +21,8 @@ body {
 .wrapper {
 	text-align: center;
 	padding-top: 2em;
+	display: flex;
+    justify-content: center
 }
 
 #mygov {
@@ -98,13 +100,13 @@ ul {
 }
 
 .rightSide {
-	padding: 0.5em;
+	padding: 1.5em;
 	margin: auto;
 }
 
 .leftSide {
 	margin: auto;
-	padding: 0.5em;
+	padding: 1.5em;
 }
 
 .mygov__goodOrBad {
